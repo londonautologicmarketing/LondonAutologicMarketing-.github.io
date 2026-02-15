@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Automotive Local SEO | London Auto-logic Marketing</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 
-<body>{
+  <style>
+    body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #05070d;
@@ -18,11 +17,6 @@
       text-align: center;
       padding: 40px 20px;
       background: linear-gradient(180deg, #0a0f1f, #05070d);
-    }
-
-    header img {
-      max-width: 700px;
-      width: 90%;
     }
 
     .container {
@@ -36,7 +30,7 @@
       margin-bottom: 20px;
     }
 
-    p.description {
+    p {
       text-align: center;
       max-width: 800px;
       margin: auto;
@@ -44,51 +38,34 @@
       color: #cbd5ff;
     }
 
-    .pricing {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      margin-top: 40px;
-    }
-
-    .card {
-      background: #0d1326;
-      border-radius: 12px;
-      padding: 25px;
-      box-shadow: 0 0 20px rgba(0,150,255,0.15);
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 25px rgba(0,180,255,0.35);
-    }
-
-    .price {
-      font-size: 28px;
-      color: #2fd3ff;
-      margin: 10px 0;
-      text-align: center;
-    }
-
     ul {
       padding-left: 18px;
       line-height: 1.6;
       color: #d7e3ff;
+      max-width: 600px;
+      margin: 20px auto;
     }
 
-    .results {
-      margin-top: 15px;
-      font-size: 14px;
-      color: #8fb3ff;
-    }
-
-    .cta {
+    nav {
       text-align: center;
-      margin-top: 50px;
+      background: #0d1326;
+      padding: 12px;
     }
 
-    .cta a {
+    nav a {
+      color: #8fb3ff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #2fd3ff;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
       background: #00aaff;
       color: white;
       padding: 14px 28px;
@@ -98,8 +75,12 @@
       transition: 0.3s;
     }
 
-    .cta a:hover {
+    .btn:hover {
       background: #0088cc;
+    }
+
+    .cta {
+      text-align: center;
     }
 
     footer {
@@ -108,8 +89,13 @@
       font-size: 14px;
       color: #8aa0d6;
       border-top: 1px solid #0f1b3d;
+      margin-top: 40px;
     }
-</body>body>
+  </style>
+</head>
+
+<body>
+
 <header>
   <h1>Automotive Local SEO</h1>
 </header>
@@ -137,12 +123,16 @@
     <li>Review growth strategy</li>
   </ul>
 
-  <a class="btn" href="contact.html">Request SEO Help</a>
+  <div class="cta">
+    <a class="btn" href="contact.html">Request SEO Help</a>
+  </div>
 </div>
 
 <footer>
   © 2026 London Auto-logic Marketing
 </footer>
 
+</body>
+</html>
 </body>
 </html>
