@@ -4,13 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | London Auto-logic Marketing</title>
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #000;
+      color: #ffffff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #050505;
+      border-bottom: 1px solid #0af;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      color: #7fd3ff;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: center;
+      padding: 15px;
+      background: #020202;
+      border-bottom: 1px solid #0af;
+    }
+
+    nav a {
+      color: #7fd3ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ffffff;
+      margin-top: 0;
+    }
+
+    p {
+      color: #bfe9ff;
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+
+    form {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    label {
+      display: block;
+      color: #7fd3ff;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #007bff;
+      border-radius: 6px;
+      background: #111;
+      color: #fff;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #00aaff;
+      box-shadow: 0 0 8px #00aaff;
+    }
+
+    /* 🔵 Glowing Button */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 28px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background: #007bff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s ease;
+      box-shadow: 0 0 12px #007bff, 0 0 24px #007bff;
+    }
+
+    .btn:hover {
+      background: #00aaff;
+      box-shadow: 0 0 18px #00aaff, 0 0 36px #00aaff;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #050505;
+      border-top: 1px solid #0af;
+      color: #7fd3ff;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Contact London Auto-logic Marketing</h1>
+  <h1>Contact Us</h1>
   <p>Free Consultation for Automotive Businesses</p>
 </header>
 
@@ -22,29 +142,29 @@
 </nav>
 
 <div class="container">
-  <h2>Let’s Grow Your Business</h2>
+  <h2>Let’s Grow Your Automotive Business</h2>
 
   <p>
-    Fill out the form below and we’ll contact you with a free marketing
-    strategy tailored to your automotive business in London, Ontario.
+    Fill out the form below and we’ll contact you with a free
+    custom digital marketing strategy.
   </p>
 
   <form>
-    <label>Name</label><br>
-    <input type="text" style="width:100%; padding:12px; margin-bottom:15px;">
+    <label>Name</label>
+    <input type="text">
 
-    <label>Email</label><br>
-    <input type="email" style="width:100%; padding:12px; margin-bottom:15px;">
+    <label>Email</label>
+    <input type="email">
 
-    <label>Message</label><br>
-    <textarea rows="5" style="width:100%; padding:12px; margin-bottom:20px;"></textarea>
+    <label>Message</label>
+    <textarea rows="5"></textarea>
 
     <button class="btn" type="submit">Send Message</button>
   </form>
 
-  <p style="margin-top:25px;">
-    Email: londonautologicmarketing@gmail.com<br>
-    Location: London, Ontario, Canada
+  <p style="margin-top: 25px;color:#bfe9ff;">
+    Email: <span style="color:#7fd3ff;">londonautologicmarketing@gmail.com</span><br>
+    Location: <span style="color:#7fd3ff;">London, Ontario, Canada</span>
   </p>
 </div>
 
